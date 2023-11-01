@@ -7,8 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplicacion 3, ingresar al s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Instalador", "Instalador", "{DE865D74-A434-412F-8A19-46E64E3D52C4}"
 	ProjectSection(SolutionItems) = preProject
-		SetupFormularios\Release\setup.exe = SetupFormularios\Release\setup.exe
-		SetupFormularios\Release\SetupFormularios.msi = SetupFormularios\Release\SetupFormularios.msi
+		SetupApp3\Release\setup.exe = SetupApp3\Release\setup.exe
+		SetupApp3\Release\SetupApp3.msi = SetupApp3\Release\SetupApp3.msi
 	EndProjectSection
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupApp3", "SetupApp3\SetupApp3.vdproj", "{7331672B-7D56-44E3-BC78-A167EB742A15}"
