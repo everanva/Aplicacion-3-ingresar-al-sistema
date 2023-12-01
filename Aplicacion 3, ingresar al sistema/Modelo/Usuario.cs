@@ -19,7 +19,7 @@ namespace Aplicacion_3__ingresar_al_sistema.Modelo
         public string telefono { get; set; }
         public string usuario { get; set; }
 
-        public const string connectionString = "datasource=localhost;port=3306;username=appvinateria;password=appvinateria";
+        public const string connectionString = "datasource=34.174.55.147;port=3306;username=vinateria;password=Vinateria123!";
 
         public bool validarUsuario(Usuario usuario)
         {
