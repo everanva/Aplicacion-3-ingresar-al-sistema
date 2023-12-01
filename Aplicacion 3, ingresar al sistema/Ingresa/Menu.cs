@@ -19,23 +19,26 @@ namespace Aplicacion_3__ingresar_al_sistema.Ingresa
 
         private void btnMaestros_Click(object sender, EventArgs e)
         {
-            Administracion_de_maestros maestros = new Administracion_de_maestros();
-            maestros.Show();
-            this.Hide();
+
         }
 
         private void btnEstudiantes_Click(object sender, EventArgs e)
         {
-            Administracion_de_estudiantes estudiantes = new Administracion_de_estudiantes();
+            Administracion_de_vinos estudiantes = new Administracion_de_vinos();
             estudiantes.Show();
             this.Hide();
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            Form1 inicio = new Form1(); 
+            Form1 inicio = new Form1();
             inicio.Show();
             this.Hide();
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

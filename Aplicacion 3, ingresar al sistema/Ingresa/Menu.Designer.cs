@@ -28,37 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Button btnMaestros;
             btnEstudiantes = new Button();
             btnCerrar = new Button();
-            btnMaestros = new Button();
             SuspendLayout();
-            // 
-            // btnMaestros
-            // 
-            btnMaestros.Location = new Point(28, 27);
-            btnMaestros.Name = "btnMaestros";
-            btnMaestros.Size = new Size(390, 66);
-            btnMaestros.TabIndex = 0;
-            btnMaestros.Text = "Administrar Maestros";
-            btnMaestros.UseVisualStyleBackColor = true;
-            btnMaestros.Click += btnMaestros_Click;
             // 
             // btnEstudiantes
             // 
-            btnEstudiantes.Location = new Point(28, 120);
+            btnEstudiantes.Location = new Point(24, 30);
+            btnEstudiantes.Margin = new Padding(3, 2, 3, 2);
             btnEstudiantes.Name = "btnEstudiantes";
-            btnEstudiantes.Size = new Size(390, 66);
+            btnEstudiantes.Size = new Size(341, 50);
             btnEstudiantes.TabIndex = 1;
-            btnEstudiantes.Text = "Administrar Estudiantes";
+            btnEstudiantes.Text = "Administrar vinos";
             btnEstudiantes.UseVisualStyleBackColor = true;
             btnEstudiantes.Click += btnEstudiantes_Click;
             // 
             // btnCerrar
             // 
-            btnCerrar.Location = new Point(28, 210);
+            btnCerrar.Location = new Point(12, 115);
+            btnCerrar.Margin = new Padding(3, 2, 3, 2);
             btnCerrar.Name = "btnCerrar";
-            btnCerrar.Size = new Size(390, 66);
+            btnCerrar.Size = new Size(341, 50);
             btnCerrar.TabIndex = 2;
             btnCerrar.Text = "Cerrar Sesion";
             btnCerrar.UseVisualStyleBackColor = true;
@@ -66,14 +56,16 @@
             // 
             // Menu
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(442, 288);
+            BackgroundImage = Properties.Resources.descarga__1_;
+            ClientSize = new Size(387, 216);
             Controls.Add(btnCerrar);
             Controls.Add(btnEstudiantes);
-            Controls.Add(btnMaestros);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Menu";
             Text = "Menu";
+            Load += Menu_Load;
             ResumeLayout(false);
         }
 

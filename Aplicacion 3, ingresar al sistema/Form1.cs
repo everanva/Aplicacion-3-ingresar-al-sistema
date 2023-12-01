@@ -1,5 +1,7 @@
 using Aplicacion_3__ingresar_al_sistema.Ingresa;
+using Aplicacion_3__ingresar_al_sistema.Modelo;
 using Microsoft.Win32;
+using MySqlConnector;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 namespace Aplicacion_3__ingresar_al_sistema
 
 {
@@ -37,7 +40,7 @@ namespace Aplicacion_3__ingresar_al_sistema
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Administracion_de_estudiantes Admi = new Administracion_de_estudiantes();
+            Administracion_de_vinos Admi = new Administracion_de_vinos();
             Admi.Show();
         }
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
@@ -65,9 +68,9 @@ namespace Aplicacion_3__ingresar_al_sistema
             }
 
             string usuario = textUsuario.Text;
-            string contraseña = textContraseña.Text;
+            string contrasena = textContrasena.Text;
 
-            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(contraseña))
+            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(contrasena))
             {
                 MessageBox.Show("Por favor, debe llenar todos los campos.");
             }
@@ -75,49 +78,38 @@ namespace Aplicacion_3__ingresar_al_sistema
             {
                 MessageBox.Show("El nombre de usuario debe tener al menos 3 caracteres.");
             }
-            else if (usuario == usuarioCorrecto && contraseña != contraseñaCorrecta)
+            else if (usuario != usuarioCorrecto || contrasena != contraseñaCorrecta)
             {
-                intentosRestantes--;
-                if (intentosRestantes > 0)
+                Usuario objUsuario = new Usuario();
+                objUsuario.usuario = usuario;
+                objUsuario.contrasena = contrasena;
+                if(objUsuario.validarUsuario(objUsuario))
                 {
-                    MessageBox.Show("Contraseña incorrecta. Intentos restantes: " + intentosRestantes);
-                }
-                else
-                {
-                    BloquearFormulario();
-                }
-            }
-            else if (usuario != usuarioCorrecto && contraseña == contraseñaCorrecta)
-            {
-                intentosRestantes--;
-                if (intentosRestantes > 0)
-                {
-                    MessageBox.Show("Usuario incorrecto. Intentos restantes: " + intentosRestantes);
-                }
-                else
-                {
-                    BloquearFormulario();
-                }
-            }
-            else if (usuario == usuarioCorrecto && contraseña == contraseñaCorrecta)
-            {
-                MessageBox.Show("¡Bienvenido, Evelyn!");
-                this.Hide(); // Oculta la ventana de login
-                             // Aquí debes mostrar la pantalla principal o realizar cualquier otra acción que desees.
+                    MessageBox.Show("¡Bienvenido, " + usuario + "!");
+                    this.Hide(); // Oculta la ventana de login
+                                 // Aquí debes mostrar la pantalla principal o realizar cualquier otra acción que desees.
 
-                Menu menu = new Menu();
-                menu.Show();
-
-            }
-            else
-            {
-                MessageBox.Show("Usuario o contraseña incorrectos.");
+                    Menu menu = new Menu();
+                    menu.Show();
+                } else
+                {
+                    intentosRestantes--;
+                    if (intentosRestantes > 0)
+                    {
+                        MessageBox.Show("Usuario o Contraseña incorrectos. Intentos restantes: " + intentosRestantes);
+                    }
+                    else
+                    {
+                        BloquearFormulario();
+                    }
+                }
+                
             }
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Registrate registrate = new Registrate();
+            usuario registrate = new usuario();
             registrate.Show();
             this.Hide();
         }
