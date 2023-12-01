@@ -21,8 +21,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0EE82F8B804B0F49DC182F8470B8E47F"
-        "OwnerKey" = "8:_BF03F7B02872402FAD6EA2BD59D9A1A1"
+        "MsmKey" = "8:_1C7FDD6269729BEBEAC1055B59C9E347"
+        "OwnerKey" = "8:_6CC7B183909445AEBCC9FCDC06FA5E4A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1C7FDD6269729BEBEAC1055B59C9E347"
+        "OwnerKey" = "8:_5930703A8629532E93499F43A5EC34F9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -40,37 +46,31 @@
         "Entry"
         {
         "MsmKey" = "8:_4AD74A2691642676D05743191699B8C6"
-        "OwnerKey" = "8:_0EE82F8B804B0F49DC182F8470B8E47F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4AD74A2691642676D05743191699B8C6"
         "OwnerKey" = "8:_B4BD3541669F464ABED6D3487D906D7B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_4AD74A2691642676D05743191699B8C6"
-        "OwnerKey" = "8:_6CC7B183909445AEBCC9FCDC06FA5E4A"
+        "OwnerKey" = "8:_5930703A8629532E93499F43A5EC34F9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_4AD74A2691642676D05743191699B8C6"
-        "OwnerKey" = "8:_5070DD570FA8771B7BC4A5C4468B5B6E"
+        "OwnerKey" = "8:_B982B50D7A29B51E31B3A4366BF411C4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5070DD570FA8771B7BC4A5C4468B5B6E"
-        "OwnerKey" = "8:_0EE82F8B804B0F49DC182F8470B8E47F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_5070DD570FA8771B7BC4A5C4468B5B6E"
+        "MsmKey" = "8:_4AD74A2691642676D05743191699B8C6"
         "OwnerKey" = "8:_6CC7B183909445AEBCC9FCDC06FA5E4A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5930703A8629532E93499F43A5EC34F9"
+        "OwnerKey" = "8:_BF03F7B02872402FAD6EA2BD59D9A1A1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -87,18 +87,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7FE83781B7F7E482E75BC26B4B59A8F9"
-        "OwnerKey" = "8:_0EE82F8B804B0F49DC182F8470B8E47F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7FE83781B7F7E482E75BC26B4B59A8F9"
-        "OwnerKey" = "8:_6CC7B183909445AEBCC9FCDC06FA5E4A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_B4BD3541669F464ABED6D3487D906D7B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -107,6 +95,18 @@
         {
         "MsmKey" = "8:_B86F05D3B3F34453A897425AEEC44DF8"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B982B50D7A29B51E31B3A4366BF411C4"
+        "OwnerKey" = "8:_6CC7B183909445AEBCC9FCDC06FA5E4A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B982B50D7A29B51E31B3A4366BF411C4"
+        "OwnerKey" = "8:_5930703A8629532E93499F43A5EC34F9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -184,6 +184,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -244,20 +252,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0EE82F8B804B0F49DC182F8470B8E47F"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1C7FDD6269729BEBEAC1055B59C9E347"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MySqlConnector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d33d3e53aa5f8c92, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Extensions.Logging.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_0EE82F8B804B0F49DC182F8470B8E47F"
+                    "_1C7FDD6269729BEBEAC1055B59C9E347"
                     {
-                    "Name" = "8:MySqlConnector.dll"
+                    "Name" = "8:Microsoft.Extensions.Logging.Abstractions.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:MySqlConnector.dll"
+            "SourcePath" = "8:Microsoft.Extensions.Logging.Abstractions.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_134DFC58D3F946CDA761D676A61E4A97"
@@ -357,20 +365,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5070DD570FA8771B7BC4A5C4468B5B6E"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5930703A8629532E93499F43A5EC34F9"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Diagnostics.DiagnosticSource, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:MySqlConnector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d33d3e53aa5f8c92, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5070DD570FA8771B7BC4A5C4468B5B6E"
+                    "_5930703A8629532E93499F43A5EC34F9"
                     {
-                    "Name" = "8:System.Diagnostics.DiagnosticSource.dll"
+                    "Name" = "8:MySqlConnector.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:System.Diagnostics.DiagnosticSource.dll"
+            "SourcePath" = "8:MySqlConnector.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_134DFC58D3F946CDA761D676A61E4A97"
@@ -439,37 +447,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7FE83781B7F7E482E75BC26B4B59A8F9"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Extensions.Logging.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_7FE83781B7F7E482E75BC26B4B59A8F9"
-                    {
-                    "Name" = "8:Microsoft.Extensions.Logging.Abstractions.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.Extensions.Logging.Abstractions.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_134DFC58D3F946CDA761D676A61E4A97"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B4BD3541669F464ABED6D3487D906D7B"
             {
             "AssemblyRegister" = "3:1"
@@ -519,6 +496,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B982B50D7A29B51E31B3A4366BF411C4"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Diagnostics.DiagnosticSource, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B982B50D7A29B51E31B3A4366BF411C4"
+                    {
+                    "Name" = "8:System.Diagnostics.DiagnosticSource.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Diagnostics.DiagnosticSource.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_134DFC58D3F946CDA761D676A61E4A97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BF03F7B02872402FAD6EA2BD59D9A1A1"
@@ -609,7 +617,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Setup Vinateria"
         "ProductCode" = "8:{FBFC9C5D-3149-455E-BB8B-3BB78298855E}"
-        "PackageCode" = "8:{E7F8C14E-E1AD-467B-AA73-4E0D821F99C2}"
+        "PackageCode" = "8:{5175707D-7BAE-4B3D-8817-5330FB726D7E}"
         "UpgradeCode" = "8:{88C2D116-1AD6-4C92-94E1-17E5B459D487}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -729,16 +737,16 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CAB5481B1B6A4E7C876816372EB50F65"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_047AEDA7AC614870B9CDD3892817F71F"
             {
-            "Name" = "8:Vinateria"
+            "Name" = "8:Shortcut to %sAplicacion 3, ingresar al sistema.exe"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
             "Target" = "8:_6F622CD4F40F4B719AE236238716E8C4"
-            "Folder" = "8:_134DFC58D3F946CDA761D676A61E4A97"
+            "Folder" = "8:_222EA01C56D54551AACFDB940F25823D"
             "WorkingFolder" = "8:_134DFC58D3F946CDA761D676A61E4A97"
             "Icon" = "8:"
             "Feature" = "8:"
